@@ -3,71 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title>Archery Academy Classes</title>
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/classes.css">
   </head>
   <body>
     <header>
-        <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo">
+        <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo" class="header-image">
         <nav>
-          <a href="classes.html">Classes</a>
-          <a href="instructors.html">Instructors</a>
-          <a href="about.html">About</a>
+          <ul class="nav-list">
+            <a class="nav-list-item" href="classes.html">Classes</a>
+            <a class="nav-list-item" href="instructors.html">Instructors</a>
+            <a class="nav-list-item" href="about.html">About</a>
+          </ul>
         </nav>
     </header>
-    <h1>Classes</h1>
-    <article class="">
-      <h2>A101 Basic Archery</h2>
-      <p>Basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.
-        Equipment will be provided with exception of safety kit.</p>
-  		<p>$120/month</p>
-  		<p>Mondays and Wednesdays, 4-5pm</p>
-      <button type="button" name="enroll-A101">Enroll</button>
-      <p>Prerequisite: Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</p>
-    </article>
+    <h1 class="page-header">Classes</h1>
 
-    <article class="">
-      <h2>A102 Intermediate Archery</h2>
-      <p>Intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.
-        Equipment will be provided with exception of safety kit.</p>
-      <p>$120/month</p>
-      <p>Tuesdays and Thursdays, 4-5pm</p>
-      <button type="button" name="enroll-A102">Enroll</button>
-      <p>A101 or recommendation from private lesson instructor. Minimum age 7 years old.</p>
-    </article>
 
-    <article class="">
-      <h2>A103 Advanced Archery</h2>
-      <p>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
-        Equipment will be provided with exception of safety kit.</p>
-      <p>$120/month</p>
-      <p>Tuesdays and Thursdays, 5-6pm</p>
-      <button type="button" name="enroll-A103">Enroll</button>
-      <p>Prerequisite:  A101/A102 or equivalent. Minimum age  7 years old.</p>
-    </article>
 
-    <article class="">
-      <h2>Private Lessons</h2>
-      <h3>Single Lesson</h3>
-      <p>1 hour of expert guidance by a USA Archery-certified coach</p>
-      <p>$50</p>
-      <button type="button" name="enroll-single">Enroll</button>
-      <h3>3 Lesson Package</h3>
-      <p>3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</p>
-      <p>$140</p>
-      <button type="button" name="enroll-3lesson">Enroll</button>
-      <h3>10 Lesson Package</h3>
-      <p>10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</p>
-      <p>$380</p>
-      <button type="button" name="enroll-10lesson">Enroll</button>
-    </article>
+    <div class="class-flex">
+      <article class="course-card">
+        <h2>A101 Basic Archery</h2>
+        <p>Basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.
+          Equipment will be provided with exception of safety kit.</p>
+    		<p>$120/month</p>
+    		<p>Mondays and Wednesdays, 4-5pm</p>
+        <button type="button" name="enroll-A101">Enroll</button>
+        <iframe src="https://www.youtube.com/embed/PV71eGtrZx4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <p>Prerequisite: Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</p>
+      </article>
 
+      <article class="course-card">
+        <h2>A102 Intermediate Archery</h2>
+        <p>Intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.
+          Equipment will be provided with exception of safety kit.</p>
+        <p>$120/month</p>
+        <p>Tuesdays and Thursdays, 4-5pm</p>
+        <button type="button" name="enroll-A102">Enroll</button>
+        <p>A101 or recommendation from private lesson instructor. Minimum age 7 years old.</p>
+      </article>
+
+      <article class="course-card">
+        <h2>A103 Advanced Archery</h2>
+        <p>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
+          Equipment will be provided with exception of safety kit.</p>
+        <p>$120/month</p>
+        <p>Tuesdays and Thursdays, 5-6pm</p>
+        <button type="button" name="enroll-A103">Enroll</button>
+        <p>Prerequisite:  A101/A102 or equivalent. Minimum age  7 years old.</p>
+      </article>
+
+      <article class="course-card">
+        <h2>Private Lessons</h2>
+        <h3>Single Lesson</h3>
+        <p>1 hour of expert guidance by a USA Archery-certified coach</p>
+        <p>$50</p>
+        <button type="button" name="enroll-single">Enroll</button>
+        <h3>3 Lesson Package</h3>
+        <p>3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</p>
+        <p>$140</p>
+        <button type="button" name="enroll-3lesson">Enroll</button>
+        <h3>10 Lesson Package</h3>
+        <p>10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</p>
+        <p>$380</p>
+        <button type="button" name="enroll-10lesson">Enroll</button>
+      </article>
+    </div>
     <footer>
-      <img src="images/archeryAcademy-logo-white.png"  alt="Archery Academy Logo">
-      <p>528 Nock Point Ln</p>
-      <p>Tacoma, WA 98412</p>
-      <nav>
-        <a href="location.html">Location</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="about.html">About</a>
+      <img class="footer-image" src="images/archeryAcademy-logo-white.png"  alt="Archery Academy Logo">
+      <p>528 Nock Point Ln<br>
+      Tacoma, WA 98412</p>
+      <nav class="">
+        <ul class="nav-list-footer">
+          <a class="nav-list-item no-left-pad" href="location.html">Location</a>
+          <a class="nav-list-item" href="contact.html">Contact Us</a>
+          <a class="nav-list-item" href="about.html">About</a>
+        </ul>
       </nav>
       <p><span>&copy;</span>2018 Archery Academy  |  Tacoma, WA</p>
     </footer>

@@ -1,0 +1,40 @@
+footer {
+  background-color: rgb(3, 163, 223);
+  background-image: url("../images/footerImage.jpg");
+  background-size: auto
+  font-family: arial;
+  color: white;
+  padding-left: 10%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-image {
+  /* padding-top: 4rem; */
+  padding-bottom: 1rem;
+}
+
+nav {
+  grid-column-start: 3;
+}
+
+.nav-list-footer {
+  padding-left: 0rem;
+}
+
+.nav-list-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration-line: none;
+  color: white;
+  font-size: larger;
+}
+
+.no-left-pad {
+  padding-left: 0rem;
+}
+
+
+.nav-list-item:hover {
+  text-decoration-line: underline;
+}

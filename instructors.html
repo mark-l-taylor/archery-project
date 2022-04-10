@@ -3,63 +3,75 @@
   <head>
     <meta charset="utf-8">
     <title>Archery Academy Instructors</title>
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/instructors.css">
   </head>
   <body>
     <header>
-        <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo">
+        <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo" class="header-image">
         <nav>
-          <a href="classes.html">Classes</a>
-          <a href="instructors.html">Instructors</a>
-          <a href="about.html">About</a>
+          <ul class="nav-list">
+            <a class="nav-list-item" href="classes.html">Classes</a>
+            <a class="nav-list-item" href="instructors.html">Instructors</a>
+            <a class="nav-list-item" href="about.html">About</a>
+          </ul>
         </nav>
     </header>
-    <h1>Meet Our Instructors</h1>
-
-    <article class="">
+    <h1 class="page-header">Meet Our Instructors</h1>
+    <article class="instructor-card">
       <img src="images/instructor-bio-image1.png" alt="Derek Jenkins profile">
-      <h2>Derek Jenkins</h2>
-      <h3>Certification</h3>
-      <p>Level 3 Coach</p>
-      <h3>Coaching Bow Styles</h3>
-      <ol>
-        <li>Recurve</li>
-      </ol>
-      <q cite="">My biggest goal is to see archery grow and help its participates to grow with it</q>
+      <div class="bio">
+        <h2>Derek Jenkins</h2>
+        <h3>Certification</h3>
+        <p>Level 3 Coach</p>
+        <h3>Coaching Bow Styles</h3>
+        <ul>
+          <li>Recurve</li>
+        </ul>
+        <q cite="">My biggest goal is to see archery grow and help its participates to grow with it</q>
+      </div>
     </article>
 
-    <article class="">
+    <article class="instructor-card">
       <img src="images/instructor-bio-image2.png" alt="Amy Smith profile">
-      <h2>Amy Smith</h2>
-      <h3>Certification</h3>
-      <p>Level 2 Coach</p>
-      <h3>Coaching Bow Styles</h3>
-      <ol>
-        <li>Recurve</li>
-        <li>Compound</li>
-      </ol>
-      <q cite="">My passion for archery grew from hunting with my family as a child.</q>
+      <div>
+        <h2>Amy Smith</h2>
+        <h3>Certification</h3>
+        <p>Level 2 Coach</p>
+        <h3>Coaching Bow Styles</h3>
+        <ul>
+          <li>Recurve</li>
+          <li>Compound</li>
+        </ul>
+        <q cite="">My passion for archery grew from hunting with my family as a child.</q>
+      </div>
     </article>
 
-    <article class="">
+    <article class="instructor-card">
       <img src="images/instructor-bio-image3.png" alt="Nathan Lee profile">
-      <h2>Nathan Lee</h2>
-      <h3>Certification</h3>
-      <p>Level 3 Coach</p>
-      <h3>Coaching Bow Styles</h3>
-      <ol>
-        <li>Compound</li>
-      </ol>
-      <q cite="">I enjoy teaching all ages and skills, from the young just getting started to those that want to fine tune their skills</q>
+      <div>
+        <h2>Nathan Lee</h2>
+        <h3>Certification</h3>
+        <p>Level 3 Coach</p>
+        <h3>Coaching Bow Styles</h3>
+        <ul>
+          <li>Compound</li>
+        </ul>
+        <q cite="">I enjoy teaching all ages and skills, from the young just getting started to those that want to fine tune their skills</q>
+      </div>
     </article>
 
     <footer>
-      <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo">
-      <p>528 Nock Point Ln</p>
-      <p>Tacoma, WA 98412</p>
-      <nav>
-        <a href="location.html">Location</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="about.html">About</a>
+      <img class="footer-image" src="images/archeryAcademy-logo-white.png"  alt="Archery Academy Logo">
+      <p>528 Nock Point Ln<br>
+      Tacoma, WA 98412</p>
+      <nav class="">
+        <ul class="nav-list-footer">
+          <a class="nav-list-item no-left-pad" href="location.html">Location</a>
+          <a class="nav-list-item" href="contact.html">Contact Us</a>
+          <a class="nav-list-item" href="about.html">About</a>
+        </ul>
       </nav>
       <p><span>&copy;</span>2018 Archery Academy  |  Tacoma, WA</p>
     </footer>

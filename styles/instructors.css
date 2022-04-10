@@ -1,0 +1,44 @@
+.page-header {
+  margin-left: 10%;
+  font-family: arial;
+}
+
+.instructor-card {
+  display: grid;
+  grid-template-columns: 250px auto;
+  border-style: outset;
+  max-width: 80%;
+  margin: 2rem 10% 2rem 10%;
+  padding: 2rem 2rem 2rem 0rem;
+  background-color: rgb(27, 68, 127);
+  color: white;
+  font-family: arial;
+}
+
+.instructor-card img {
+  grid-column-start: 1;
+  justify-self: center;
+}
+
+.instructor-card bio {
+  grid-column-start: 2;
+}
+
+.instructor-card h2 {
+  border-bottom-style: solid;
+  border-color: rgb(236, 183, 34);
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+.instructor-card h3 {
+  text-transform: uppercase;
+  color: rgb(236, 183, 34);
+  font-size: 0.75rem;
+  margin-bottom: 0rem;
+}
+
+.instructor-card ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}

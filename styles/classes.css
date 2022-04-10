@@ -1,0 +1,41 @@
+
+.page-header {
+  margin-left: 10%;
+  font-family: arial;
+}
+
+
+.class-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  max-width: 80%;
+  margin: 2rem 10% 2rem 10%;
+  font-family: arial;
+}
+
+.course-card {
+  border-style: outset;
+  max-width: 20rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+button {
+  background-color: rgb(3, 163, 223);
+  padding: .25rem 1rem .25rem 1rem;
+  border-radius: 5px;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(236, 183, 34);
+  color: black;
+}
+
+iframe {
+  margin-top: 1rem;
+  /* width: 30rem; */
+  height: 20rem;
+}
