@@ -17,11 +17,16 @@ nav {
 
 .nav-list {
   float:right;
+  list-style-type: none;
 }
 
 .nav-list-item {
+  display: inline;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.nav-list-item a {
   text-decoration-line: none;
   color: white;
   font-size: larger;
