@@ -26,14 +26,14 @@
 
 .instructor-card h2 {
   border-bottom-style: solid;
-  border-color: rgb(236, 183, 34);
+  border-color: rgb(245, 218, 143);
   padding-bottom: 2rem;
   margin-top: 0rem;
 }
 
 .instructor-card h3 {
   text-transform: uppercase;
-  color: rgb(236, 183, 34);
+  color: rgb(245, 218, 143);
   font-size: 0.75rem;
   margin-bottom: 0rem;
 }
